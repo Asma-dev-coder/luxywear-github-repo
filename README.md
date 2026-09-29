@@ -1,25 +1,18 @@
-# LuxyWear 🛍️✨
+# React + Vite
 
-LuxyWear is a modern, responsive, and user-friendly fashion e-commerce web application built using **React** and **Vite**. It provides a seamless online shopping experience with dynamic cart management and clean routing.
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-## 🚀 Key Features
+Currently, two official plugins are available:
 
-* 🏠 **Home Page**: Showcases featured collections and modern UI components.
-* 🛍️ **Products Catalog**: Browse through available fashion items with dynamic layouts.
-* 🔍 **Product Details**: Interactive page to select sizes, quantities, and view item details.
-* 🛒 **Dynamic Cart**: Real-time total calculation, quantity updates, and item removal using React State.
-* 💳 **Checkout Page**: Clean interface for order finalization and checkout flow.
-* 📱 **Fully Responsive**: Optimized for seamless viewing across Mobile, Tablet, and Desktop screens.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🛠️ Tech Stack
+## React Compiler
 
-* **Frontend**: React.js, JSX
-* **Routing**: React Router DOM (`v6`)
-* **Styling**: CSS3 (Flexbox & Grid)
-* **Build Tool**: Vite
+The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-## 💻 Getting Started Locally
+Note: This will impact Vite dev & build performances.
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/Asma-dev-coder/luxywear.git](https://github.com/Asma-dev-coder/luxywear.git)
+## Expanding the Oxlint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
